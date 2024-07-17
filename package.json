@@ -1,0 +1,158 @@
+{
+  "name": "faleai",
+  "homepage": "https://apps.falefacilvoip.com.br/faleai/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "bin": {
+    "commit-msg": "./.git/hooks/commit-msg.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^2.17.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/lab": "^5.0.0-alpha.148",
+    "@mui/material": "^5.14.13",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.1",
+    "@mui/x-data-grid": "^6.19.6",
+    "@mui/x-date-pickers": "^6.19.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^1.5.1",
+    "country-flag-icons": "^1.5.11",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.10",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "i18next": "^23.11.5",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.5.2",
+    "js-cookie": "^3.0.5",
+    "jszip": "^3.10.1",
+    "jwt-decode": "^4.0.0",
+    "pdfmake": "^0.2.9",
+    "qs": "^6.10.1",
+    "react": "^18.2.0",
+    "react-credit-cards-2": "^1.0.1",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.2",
+    "react-icons": "^4.2.0",
+    "react-input-mask": "^2.0.4",
+    "react-live-clock": "^6.1.19",
+    "react-loader-spinner": "^4.0.0",
+    "react-router-dom": "^6.22.1",
+    "react-scripts": "^3.0.1",
+    "react-select": "^5.8.0",
+    "react-time-picker": "^6.6.0",
+    "react-toastify": "^7.0.4",
+    "react-transition-group": "^4.4.5",
+    "react-useinterval": "^1.0.2",
+    "styled-components": "^6.1.0",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "git-commit-msg-linter": "^3.2.8",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "vite": "^4.4.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": "off",
+      "react-hooks/rules-of-hooks": "off",
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": 0,
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "comma-spacing": [
+        "error",
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "semi-spacing": [
+        "error",
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "key-spacing": [
+        "error",
+        {
+          "beforeColon": false
+        }
+      ],
+      "padded-blocks": [
+        "error",
+        "never"
+      ],
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 1
+        }
+      ],
+      "lines-between-class-members": [
+        "error",
+        "always",
+        {
+          "exceptAfterSingleLine": true
+        }
+      ],
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ],
+      "space-before-blocks": [
+        "error",
+        "always"
+      ],
+      "eol-last": [
+        "error",
+        "always"
+      ],
+      "arrow-spacing": [
+        "error",
+        {
+          "before": true,
+          "after": true
+        }
+      ],
+      "no-console": "warn"
+    }
+  }
+}
